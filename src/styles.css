@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+  background-image: url(assets/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 80px;
+  background-size: 600px 600px;
+}
+
+.jumbotron{
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  -webkit-opacity: 0.5;
+}
